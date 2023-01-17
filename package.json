@@ -1,0 +1,26 @@
+{
+  "name": "aves-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/input.css -o ./css/main.css",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+     "watch": "npx tailwindcss -i ./src/input.css -o ./dist/main.css --watch"
+  },
+  "dependencies": {
+    "@nuxt/content": "^1.0.0",
+    "@nuxtjs/pwa": "^3.3.5",
+    "boostrap": "^2.0.0",
+    "core-js": "^3.25.3",
+    "nuxt": "^2.15.8",
+    "vue": "^2.7.10",
+    "vue-server-renderer": "^2.7.10",
+    "vue-template-compiler": "^2.7.10"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.2.0",
+    "tailwindcss": "^3.2.4"
+  }
+}
