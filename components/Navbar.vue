@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center w-full min-h-screen p-12 bg-gray-200">
+  <div class="flex justify-center w-64 max-h-screen p-12 bg-gray-200">
     <div class="w-64 h-full overflow-y-scroll bg-gray-900 absolute left-0 top-0">
       <div class="px-6 pt-8">
         <div class="flex items-center justify-between">
@@ -161,7 +161,7 @@
                 <a
                   href="#"
                   class="inline-block w-full py-2 pl-8 pr-4 text-xs rounded hover:bg-gray-800 focus:outline-none focus:ring-1 focus:ring-gray-500 focus:bg-gray-800"
-                  >CPM</a
+                  >CRM</a
                 >
               </div>
               <button class="absolute right-0 flex items-center p-1" tabindex="-1">
@@ -182,7 +182,7 @@
                   <a
                     href="#"
                     class="inline-block w-full px-4 py-2 text-xs rounded hover:bg-gray-800 hover:text-white focus:outline-none focus:ring-1 focus:ring-gray-500 focus:text-white"
-                    > <nuxt-link exact no-prefetch active-class="active" class="nav-link" to="/history">
+                    > <nuxt-link exact no-prefetch active-class="active" class="nav-link" to="/transaction">
                       Сделки
                     </nuxt-link></a
                   >
@@ -191,7 +191,7 @@
                   <a
                     href="#"
                     class="inline-block w-full px-4 py-2 text-xs rounded hover:bg-gray-800 hover:text-white focus:outline-none focus:ring-1 focus:ring-gray-500 focus:text-white"
-                    > <nuxt-link exact no-prefetch active-class="active" class="nav-link" to="/history">
+                    > <nuxt-link exact no-prefetch active-class="active" class="nav-link" to="/warehouses">
                       Товары и Склады
                     </nuxt-link></a
                   >
@@ -200,7 +200,7 @@
                   <a
                     href="#"
                     class="inline-block w-full px-4 py-2 text-xs rounded hover:bg-gray-800 hover:text-white focus:outline-none focus:ring-1 focus:ring-gray-500 focus:text-white"
-                    ><nuxt-link exact no-prefetch active-class="active" class="nav-link" to="/">
+                    ><nuxt-link exact no-prefetch active-class="active" class="nav-link" to="/sales">
                       Продажи
                     </nuxt-link></a
                   >

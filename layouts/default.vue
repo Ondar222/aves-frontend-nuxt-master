@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <div class="flex flex-grow">
     <Navbar />
 
-    <main>
+    <main class="w-11/12">
       <div class="container">
         <nuxt />
       </div>
