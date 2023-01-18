@@ -200,8 +200,8 @@
                   <a
                     href="#"
                     class="inline-block w-full px-4 py-2 text-xs rounded hover:bg-gray-800 hover:text-white focus:outline-none focus:ring-1 focus:ring-gray-500 focus:text-white"
-                    ><nuxt-link exact no-prefetch active-class="active" class="nav-link" to="/sales">
-                      Продажи
+                    ><nuxt-link exact no-prefetch active-class="active" class="nav-link" to="/recourse">
+                      Обращение
                     </nuxt-link></a
                   >
                 </li>
@@ -209,7 +209,7 @@
                   <a
                     href="#"
                     class="inline-block w-full px-4 py-2 text-xs rounded hover:bg-gray-800 hover:text-white focus:outline-none focus:ring-1 focus:ring-gray-500 focus:text-white"
-                    >     <nuxt-link exact no-prefetch active-class="active" class="nav-link" to="/">
+                    >     <nuxt-link exact no-prefetch active-class="active" class="nav-link" to="/analytics">
                       Аналитика
                     </nuxt-link></a
                   >
@@ -266,11 +266,13 @@
               </svg>
             </div>
             <a
-              href=""
-              class="inline-block w-full py-2 pl-8 pr-4 text-xs rounded hover:bg-gray-800 focus:outline-none focus:ring-1 focus:ring-gray-500 focus:bg-gray-800"
-              >Складский учет</a
-            >
-          </li>
+            href="#"
+            class="inline-block w-full py-2 pl-8 pr-4 text-xs rounded hover:bg-gray-800 focus:outline-none focus:ring-1 focus:ring-gray-500 focus:bg-gray-800"
+            >     <nuxt-link exact no-prefetch active-class="active" class="nav-link" to="/accounting">
+              Складский учёт
+            </nuxt-link></a
+          >
+        </li>
           <li class="relative text-gray-500 hover:text-white focus-within:text-white">
             <div
               class="absolute inset-y-0 left-0 flex items-center pl-2 pointer-events-none"
@@ -289,7 +291,9 @@
             <a
               href="#"
               class="inline-block w-full py-2 pl-8 pr-4 text-xs rounded hover:bg-gray-800 focus:outline-none focus:ring-1 focus:ring-gray-500 focus:bg-gray-800"
-              >Маркетинг</a
+              >     <nuxt-link exact no-prefetch active-class="active" class="nav-link" to="/index">
+                Маркетинг
+              </nuxt-link></a
             >
           </li>
           <li class="relative text-gray-500 hover:text-white focus-within:text-white">
@@ -321,11 +325,13 @@
               </svg>
             </div>
             <a
-              href="#"
-              class="inline-block w-full py-2 pl-8 pr-4 text-xs rounded hover:bg-gray-800 focus:outline-none focus:ring-1 focus:ring-gray-500 focus:bg-gray-800"
-              >Задачи и Проекты</a
-            >
-          </li>
+            href="#"
+            class="inline-block w-full py-2 pl-8 pr-4 text-xs rounded hover:bg-gray-800 focus:outline-none focus:ring-1 focus:ring-gray-500 focus:bg-gray-800"
+            >     <nuxt-link exact no-prefetch active-class="active" class="nav-link" to="/index">
+              Задачи и Проекты
+            </nuxt-link></a
+          >
+        </li>
           <li class="relative text-gray-500 hover:text-white focus-within:text-white">
             <div
               class="absolute inset-y-0 left-0 flex items-center pl-2 pointer-events-none"
@@ -380,11 +386,13 @@
               </svg>
             </div>
             <a
-              href="#"
-              class="inline-block w-full py-2 pl-8 pr-4 text-xs rounded hover:bg-gray-800 focus:outline-none focus:ring-1 focus:ring-gray-500 focus:bg-gray-800"
-              >Компания</a
-            >
-          </li>
+            href="#"
+            class="inline-block w-full py-2 pl-8 pr-4 text-xs rounded hover:bg-gray-800 focus:outline-none focus:ring-1 focus:ring-gray-500 focus:bg-gray-800"
+            >     <nuxt-link exact no-prefetch active-class="active" class="nav-link" to="/index">
+              Компания
+            </nuxt-link></a
+          >
+        </li>
         </ul>
       </div>
       <div class="px-6 pt-8">

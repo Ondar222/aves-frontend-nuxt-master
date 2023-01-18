@@ -12,9 +12,13 @@
             <div class="flex justify-center">
               <input
                 type="text"
+                name="search"
                 class="w-1-2 rounded pl-8 pr-4 py-2.5 text-md font-light bg-gray-300 text-gray-400 placeholder-gray-500 focus:outline-none focus:ring-1 focus:ring-gray-500 focus:bg-gray-300"
                 placeholder="поиск"
               />
+              <button class="rounded bg-teal-600 px-3 text-white">
+                Найти
+              </button>
             </div>
             <div class="flex justify-content">
               <div class="flex justify-center ml-3 mt-3 rounded-xl bg-gray-300 w-1/3 h-6 space-x-12 text-white">
