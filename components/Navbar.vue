@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center w-64 max-h-screen p-12 bg-gray-200">
+  <div class="flex justify-center w-64 h-screen p-12 bg-gray-200">
     <div class="w-64 h-full overflow-y-scroll bg-gray-900 absolute left-0 top-0">
       <div class="px-6 pt-8">
         <div class="flex items-center justify-between">
@@ -114,7 +114,7 @@
             <a
               href="#"
               class="inline-block w-full py-2 pl-8 pr-4 text-xs rounded hover:bg-gray-800 focus:outline-none focus:ring-1 focus:ring-gray-500 focus:bg-gray-800"
-              >     <nuxt-link exact no-prefetch active-class="active" class="nav-link" to="/index">
+              >     <nuxt-link exact no-prefetch active-class="active" class="nav-link" to="/">
                 Главная
               </nuxt-link></a
             >
@@ -269,7 +269,7 @@
             href="#"
             class="inline-block w-full py-2 pl-8 pr-4 text-xs rounded hover:bg-gray-800 focus:outline-none focus:ring-1 focus:ring-gray-500 focus:bg-gray-800"
             >     <nuxt-link exact no-prefetch active-class="active" class="nav-link" to="/accounting">
-              Складский учёт
+              Складской учёт
             </nuxt-link></a
           >
         </li>
@@ -327,7 +327,7 @@
             <a
             href="#"
             class="inline-block w-full py-2 pl-8 pr-4 text-xs rounded hover:bg-gray-800 focus:outline-none focus:ring-1 focus:ring-gray-500 focus:bg-gray-800"
-            >     <nuxt-link exact no-prefetch active-class="active" class="nav-link" to="/index">
+            >     <nuxt-link exact no-prefetch active-class="active" class="nav-link" to="/project">
               Задачи и Проекты
             </nuxt-link></a
           >
@@ -388,7 +388,7 @@
             <a
             href="#"
             class="inline-block w-full py-2 pl-8 pr-4 text-xs rounded hover:bg-gray-800 focus:outline-none focus:ring-1 focus:ring-gray-500 focus:bg-gray-800"
-            >     <nuxt-link exact no-prefetch active-class="active" class="nav-link" to="/index">
+            >     <nuxt-link exact no-prefetch active-class="active" class="nav-link" to="/company">
               Компания
             </nuxt-link></a
           >

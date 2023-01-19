@@ -1,26 +1,15 @@
 <template>
 <section>
-      <header class="container mx-auto px-5 md:px-0 mt-5">
-          <div class="flex justify-between pt-big">
-             <span class="pl-5 font-bold text-3xl">Товары и Склады</span>
-
-             <div class="space-x-5">
-              <a href="" class="hover:underline">Помощь</a>
-              <a href="" class="bg-blue-900 py-2 px-4 rounded-full hover:bg-blue-500 text-white">Рабочий кабинет</a>
-             </div>
-          </div>
-          <div class="flex justify-center">
-            <input
-              type="text"
-              name="search"
-              class="w-1-2 rounded pl-8 pr-4 py-2.5 text-md font-light bg-gray-100 text-gray-500 placeholder-gray-500 focus:outline-none focus:ring-1 focus:ring-gray-500 focus:bg-gray-300"
-              placeholder="поиск"
-            />
-            <button class="rounded bg-blue-900 px-3 text-white">
-              Найти
-            </button>
-          </div>
-      </header>
+  <header class="text-gray-600 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+        </svg>
+        <span class="ml-3 text-xl">Товары и Склады</span>
+      </a>
+    </div>
+  </header>
       <main class="container mx-auto py-big px-3 sm:px-0">
       <h1 class="text-center text-3xl font-bold mt-5">Каталог товаров</h1>
         <table class="w-full ml-5 mt-5">

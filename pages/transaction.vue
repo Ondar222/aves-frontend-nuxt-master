@@ -1,41 +1,31 @@
 <template>
   <section>
-        <header class="container mx-auto px-5 md:px-0 mt-5">
-            <div class="flex justify-between pt-big">
-               <span class="pl-5 font-bold text-3xl">Сделки</span>
-
-               <div class="space-x-5">
-                <a href="" class="hover:underline">Помощь</a>
-                <a href="" class="bg-blue-300 py-2 px-4 rounded-full hover:bg-red-300">Рабочий кабинет</a>
-               </div>
-            </div>
-            <div class="flex justify-center">
-              <input
-                type="text"
-                name="search"
-                class="w-1-2 rounded pl-8 pr-4 py-2.5 text-md font-light bg-gray-300 text-gray-400 placeholder-gray-500 focus:outline-none focus:ring-1 focus:ring-gray-500 focus:bg-gray-300"
-                placeholder="поиск"
-              />
-              <button class="rounded bg-teal-600 px-3 text-white">
-                Найти
-              </button>
-            </div>
-            <div class="flex justify-content">
-              <div class="flex justify-center ml-3 mt-3 rounded-xl bg-gray-300 w-1/3 h-6 space-x-12 text-white">
-                <a class="font-bold" href="#">Воронка</a>
-                <a class="" href="#">Список</a>
-                <a class="" href="#">Дела</a>
-                <a class="" href="#">Календарь</a>
-              </div>
-              <div class="flex justify-center ml-3 mt-3 rounded-xl bg-gray-300 w-1/3 h-6 space-x-12 text-white">
-                <a class="font-bold" href="#">Мои:</a>
-                <a class="" href="#">Входящие</a>
-                <a class="" href="#">Запланированные</a>
-                <a class="" href="#">Еще</a>
-              </div>
-            </div>
-        </header>
-
+    <header class="text-gray-600 body-font">
+      <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+          </svg>
+          <span class="ml-3 text-xl">Сделки</span>
+        </a>
+        <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+          <a class="mr-5 hover:text-gray-900">Воронка</a>
+          <a class="mr-5 hover:text-gray-900">Список</a>
+          <a class="mr-5 hover:text-gray-900">Дела</a>
+          <a class="mr-5 hover:text-gray-900">Календарь</a>
+          <a class="pl-5 mr-5 hover:text-gray-900 sm:py-3 sm:border-l ">Продажи</a>
+          <a class="mr-5 hover:text-gray-900">Аналитика</a>
+          <a class="mr-5 hover:text-gray-900">Интеграции</a>
+          <a class="mr-5 hover:text-gray-900">Настройки</a>
+          <a class="mr-5 hover:text-gray-900">Еще</a>
+        </nav>
+        <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Button
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </button>
+      </div>
+      </header>
     <div class="container mx-auto py-big grid grid-columns-3 grid-flow-col gap-1 pt-10 pl-3 text-center">
       <div class=" w-5/5 h-[830px] border-dashed border-black border-2">
         <h1 class="w-full h-10 bg-blue-300 p-2 2 font-bold">Новая(0)</h1>
